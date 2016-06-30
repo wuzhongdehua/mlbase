@@ -75,9 +75,9 @@ data = pd.read_excel(catering_sale, index_col = u'日期') #读取数据，指�
 #x.plot(logy=True,label=u'对数数据图',legend=True)
 #plt.show()
 
-plt.rcParams['font.sans-serif'] = ['SimHei'] #用来正常显示中文标签
-plt.rcParams['axes.unicode_minus'] = False #用来正常显示负号
-error=np.random.rand(10)
-y=pd.Series(np.sin(np.arange(10)))
-y.plot(yerr=error)
-plt.show()
+#plt.rcParams['font.sans-serif'] = ['SimHei'] #用来正常显示中文标签
+#plt.rcParams['axes.unicode_minus'] = False #用来正常显示负号
+#error=np.random.rand(10)
+#y=pd.Series(np.sin(np.arange(10)))
+#y.plot(yerr=error)
+#plt.show()
